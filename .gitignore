@@ -1,0 +1,16 @@
+/.idea/
+/instance/*
+!/instance/readme.txt
+/venv/
+*.DS_Store
+*.pyc
+*.log
+*.pem
+node_modules/
+build/*
+!build/contracts
+package-lock.json
+
+# local .env* files
+.env.local
+.env.*.local
